@@ -8,6 +8,9 @@ public class YoutubeCom {
         usuario.subirVideo(video);
         usuario.mostrarInfoUsuario();
         
-                
+        
+        Usuario usuario2=new Usuario("Alfonso Miguel");
+        Comentario comment1=new Comentario("Ya esta reprobado chabo :)",usuario2);
+        System.out.println("El usuario "+ usuario2.getNombre()+ "  publicó el comentario "+ comment1.getContenido() );
     }
 }
